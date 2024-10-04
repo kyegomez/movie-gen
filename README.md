@@ -2,7 +2,7 @@
 
 # Movie Gen
 
-[![Join our Discord](https://img.shields.io/badge/Discord-Join%20our%20server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/agora-999382051935506503) [![Subscribe on YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@kyegomez3242) [![Connect on LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kye-g-38759a207/) [![Follow on X.com](https://img.shields.io/badge/X.com-Follow-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/kyegomezb)
+[![Join Their Discord](https://img.shields.io/badge/Discord-Join%20Their%20server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/agora-999382051935506503) [![Subscribe on YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@kyegomez3242) [![Connect on LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kye-g-38759a207/) [![Follow on X.com](https://img.shields.io/badge/X.com-Follow-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/kyegomezb)
 
 
 **Movie Gen** is a collection of cutting-edge foundation models developed by the Movie Gen team at **Meta1**. These models are designed to generate high-quality 1080p HD videos with various aspect ratios and synchronized audio. **Movie Gen** excels at a range of tasks, including:
@@ -13,7 +13,7 @@
 - **Video-to-audio generation**
 - **Text-to-audio generation**
 
-Our models set a new state-of-the-art in multiple video and audio generation domains and aim to push the boundaries of what's possible in media creation. The most powerful model in our collection is a **30 billion parameter transformer**, capable of generating videos up to 16 seconds long at 16 frames per second (fps). The model operates with a maximum context length of **73K video tokens**, allowing for highly detailed and complex media output.
+Their models set a new state-of-the-art in multiple video and audio generation domains and aim to push the boundaries of what's possible in media creation. The most powerful model in Their collection is a **30 billion parameter transformer**, capable of generating videos up to 16 seconds long at 16 frames per second (fps). The model operates with a maximum context length of **73K video tokens**, allowing for highly detailed and complex media output.
 
 ## Key Features
 
@@ -34,26 +34,26 @@ Our models set a new state-of-the-art in multiple video and audio generation dom
 
 ## Technical Innovations
 
-1. **Architecture Simplifications**: We introduced several architectural simplifications to scale media generation models effectively. These include novel transformer-based structures tailored for handling video data.
+1. **Architecture Simplifications**: They introduced several architectural simplifications to scale media generation models effectively. These include novel transformer-based structures tailored for handling video data.
    
-2. **Latent Spaces & Training Objectives**: By refining latent spaces and optimizing training objectives, our models can generate realistic, coherent, and high-quality outputs across multiple media modalities.
+2. **Latent Spaces & Training Objectives**: By refining latent spaces and optimizing training objectives, Their models can generate realistic, coherent, and high-quality outputs across multiple media modalities.
 
-3. **Data Curation**: We built a highly curated, diverse dataset specifically designed for multi-modal media generation tasks.
+3. **Data Curation**: They built a highly curated, diverse dataset specifically designed for multi-modal media generation tasks.
 
-4. **Parallelization Techniques**: Our models leverage advanced parallelization techniques, enabling faster training and inference.
+4. **Parallelization Techniques**: Their models leverage advanced parallelization techniques, enabling faster training and inference.
 
-5. **Inference Optimizations**: We implemented optimizations that significantly reduce latency during inference, making real-time video generation and editing feasible.
+5. **Inference Optimizations**: They implemented optimizations that significantly reduce latency during inference, making real-time video generation and editing feasible.
 
 ## Installation
 
 To use Movie Gen, clone the repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/meta1/movie-gen.git
+git clone https://github.com/kyegomez/movie-gen.git
 cd movie-gen
 pip install -r requirements.txt
 ```
-
+<!-- 
 ## Usage
 
 ### Text-to-Video Generation
@@ -66,7 +66,7 @@ from movie_gen import MovieGenModel
 # Initialize the model
 model = MovieGenModel.load_pretrained('movie-gen-max')
 
-# Provide your text prompt
+# Provide yTheir text prompt
 text_prompt = "A serene beach at sunset with waves crashing gently."
 
 # Generate video
@@ -120,15 +120,15 @@ edited_video.save("edited_video.mp4")
 
 ## Model Training
 
-To train your own version of the Movie Gen models, follow the steps below:
+To train yTheir own version of the Movie Gen models, follow the steps below:
 
-1. Prepare your dataset following our data curation guidelines.
+1. Prepare yTheir dataset following Their data curation guidelines.
 2. Run the training script:
    ```bash
    python train.py --config configs/movie_gen_max.yaml
-   ```
+   ``` -->
 
-### Training Configurations
+<!-- ### Training Configurations
 
 The available model configurations are stored in the `configs/` directory. For example, to train the 30B parameter model (`movie-gen-max`), use the following configuration:
 
@@ -142,20 +142,20 @@ model:
     - text-to-video
     - video-personalization
     - video-editing
-```
+``` -->
 
 ## Evaluation
 
-Our models have been rigorously evaluated on multiple tasks, including:
+Their models have been rigorously evaluated on multiple tasks, including:
 
 - Text-to-video generation benchmarks.
 - Video personalization accuracy.
 - Instruction-based video editing precision.
 - Audio generation quality.
 
-### Reproducing Our Results
+### Reproducing Their Results
 
-To reproduce the evaluation metrics in our paper, use the following command:
+To reproduce the evaluation metrics in Their paper, use the following command:
 
 ```bash
 python evaluate.py --model movie-gen-max --task text-to-video
@@ -163,7 +163,7 @@ python evaluate.py --model movie-gen-max --task text-to-video
 
 ## Contributing
 
-We welcome contributions! Please follow the standard GitHub flow:
+They welcome contributions! Please follow the standard GitHub flow:
 
 1. Fork the repository
 2. Create a new feature branch (`git checkout -b feature-branch`)
